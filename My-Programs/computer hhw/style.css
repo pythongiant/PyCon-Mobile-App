@@ -1,0 +1,61 @@
+html,body{
+	font-family: arial;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+#product_start{
+background-image: url(product.png);
+     width: 100%;
+     height:60%;
+     background-attachment: fixed;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: Black;
+}
+#about li{
+	display:inline-block;
+	padding:20px;
+	color:white;
+}
+#about li:hover{
+	background-color: yellow;
+	color:white;
+}
+a{
+	text-decoration: none;
+	color:black;
+	
+}
+#contact{
+background-image:url(contact.jpeg);
+width:100%;
+height:40%;
+background-size:cover;
+}
+
+#about{
+background-color: white;
+color:white;
+}
+ #start {
+     background-image: url(mac.jpg);
+     width: 100%;
+     height: 100%;
+     background-attachment: fixed;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+ }
+ul{
+	list-style-type: none;
+}
+#Service li{
+	display:inline-block;
+	padding:10px;
+}

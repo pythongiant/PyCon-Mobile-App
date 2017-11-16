@@ -1,0 +1,161 @@
+html,
+body {
+    margin: 0;
+    background-color: #fafafa;
+    font-family: segoe ui semibold;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+li {
+    float: left;
+
+}
+
+ul {
+    position: fixed;
+    width: 100%;
+    display: inline-block;
+    background-image: url(Apple-Event-Wallpaper-iPhone-8-iDownloadBlog-zheanosecond.png);
+    background-size: cover;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: segoe ui semibold;
+
+}
+
+li a {
+    padding: 12px;
+    display: block;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: segoe ui semibold;
+    font-weight: 400;
+}
+
+.a {
+    margin-top: -8px;
+}
+
+.camera {
+    background-color: black;
+    background-repeat: no-repeat;
+    width: 96.3%;
+    height: 518px;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.display {
+    width: 96.3%;
+    height: 520px;
+    padding: 10px;
+    padding-left: 40px;
+    color: white;
+    background-image: url(display.png);
+}
+
+.design {
+    width: 96.3%;
+    height: 520px;
+    padding: 10px;
+    padding-left: 40px;
+    color: white;
+    background-image: url(The_iPhone_X_has_an-ed8f368cd866f1223097767ad8434b54.png);
+    background-size: cover;
+
+}
+
+.wireless {
+    width: 96.3%;
+    height: 520px;
+    padding: 10px;
+    padding-left: 40px;
+    color: black;
+    background-color: white;
+    background-size: cover;
+}
+
+.faceid {
+    width: 96.3%;
+    height: 520px;
+    padding: 10px;
+    padding-left: 40px;
+    color: black;
+    background-image: url(face-id-dystopia.jpg);
+}
+
+.footer {
+    width: 96.3%;
+    height: 96%;
+    padding: 10px;
+    padding-left: 40px;
+    color: black;
+    background-color:white;
+}
+
+.center {
+    width: 19%;
+    height: 50px;
+    border-radius: 17px;
+    display: block;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    font-size: 17px;
+    transition: all .35s ease;
+}
+
+.center:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+h2 {
+    font-family: segoe ui semibold;
+    font-size: 30px;
+}
+
+.animoji{
+    width: 96.3%;
+    height: 492px;
+    padding: 10px;
+    padding-left: 40px;
+    background-color: #edebf0;
+
+
+}
+
+.a11{
+    width: 96.3%;
+    height: 520px;
+    padding: 10px;
+    padding-left: 40px;
+    color: white;
+    background-image: url(P9121636-X3-980x620.jpg);
+    background-size: cover;
+
+}
+
+ol{
+    list-style:circle;
+}
+
+
+.buy:hover{
+    border: 3px solid pink;
+    border-radius: 32px;
+    box-sizing: border-box;
+}

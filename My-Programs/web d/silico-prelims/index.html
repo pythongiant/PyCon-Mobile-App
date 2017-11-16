@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iPhone X</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200|Roboto:100,200,300,400,500|Raleway:100,200,300,400,500" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+	 $(document).ready(function() {
+    $("a").on("click", function(e) {
+        if ("" !== this.hash) {
+            e.preventDefault();
+            var a = this.hash;
+            $("html, body").animate({
+                scrollTop: $(a).offset().top
+            }, 800, function() {
+                window.location.hash = a
+            })
+        }
+    })
+});
+
+ $(window).scroll(function() {
+    if($(this).scrollTop() > 50) 
+    {
+        $('.header').addClass('opaque');
+    } else {
+        $('.header').removeClass('opaque');
+    }
+});
+</script>
+<div class="header">
+<div class="left-part nav-ele">
+	iPhone X
+</div>
+<div class="right-part nav-ele">
+	<a href="#main">Home</a>
+	<a href="#about">About</a>
+	<a href="#work">Features</a>
+	<a href="#contact">Contact</a>
+</div>
+</div>
+<div class="landing" id="main">
+  <p>Welcome to X<br/><font style="font-size: 1rem;">Get ready to wow yourselves.</font>	<br/></p><br><br><br><br>
+		<div class="link_one"><a href = "#" >MORE</a>
+	</div>
+</div>
+
+<div class="about" id="about">
+
+<div class="about-img">
+	<img src="about.png">
+</div>
+ <div class="about-text">
+ <h1>X is here</h1>
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sin</p>
+ </div>
+ </div>
+
+ <div class = "work" id="work">
+ 	<h1 class = "work-text" align="center">All you need to know.</h1>
+ 	<div class = "box_one">
+ 	<div class="contain_one imgone"><img src = "logo1.jpg" class="img_1"></div>
+ 	<div class = "text_one"><h2 class = "heading_1">FaceID</h2><br/>
+    <h2 class = "text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip.</h2>
+ 	</div>
+ 	</div>
+ 	 	<div class = "box_one two">
+ 	<div class="contain_two imgone"><img src = "logo2.jpg" class="img_2"></div>
+ 	<div class = "text_one"><h2 class = "heading_1">Wireless Charging</h2><br/>
+    <h2 class = "text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip.</h2>
+ 	</div>
+ 	</div>
+ 	 	<div class = "box_one three">
+ 	<div class="contain_three imgone"><img src = "logo3.gif" class="img_3"></div>
+ 	<div class = "text_one"><h2 class = "heading_1">Animoji</h2><br/>
+    <h2 class = "text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip.</h2>
+ 	</div>
+ 	</div>
+ </div><br/>
+
+ <div class = "form" id="contact">
+ <h1 class="testimonials-text" align="center">Questions? Get in touch.</h1>
+ 	<input type="text" name="name" placeholder = "Name" class = "naam textbox "><br/>
+ 	<input type="text" name="email" placeholder = "E-mail" class = "mail textbox"><br/>
+    <input type="text" name="query" placeholder = "Query" class = "kaam textbox"><br/>
+    <button class = "btn">Send</button>
+    
+ </div>
+ <footer><p class ="txt" style="text-align: center; margin-left: 1%;">@Apple Inc.<br/>
+With &hearts; from CORE</p>
+ </footer>
+</body>
+</html>
