@@ -1,0 +1,32 @@
+{% extends "ProgrammerProfile/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container">
+	<div class="row">
+		<div class = "col-sm-8 col-sm-offset-2">	
+		    <form class="form-horizontal" enctype="multipart/form-data" 
+			action="{% url 'auth' %}" method="POST">
+				{% csrf_token %}
+				
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			    	{{form|crispy}}
+				{{form.errors}}
+				<center>
+					<button type="submit" value="submit">SUBMIT!</button>
+				</center>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<<<<<<< HEAD
+=======
+<footer>
+	<center>
+			<b>You will be redirected to the login page afterwards</b>
+	</center>
+</footer>
+>>>>>>> 358728481686bb8a7013093aa82f467ab168bf77
+
+{% endblock content %}
